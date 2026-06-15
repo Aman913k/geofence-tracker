@@ -38,7 +38,7 @@ func main() {
 	log.Println("database connected and schema applied")
 
 	hub := ws.NewHub()
-	go hub.Run(rootCtx)
+	go hub.Run(rootCtx) // go routine to run web socket 
 
 	h := handlers.New(store, hub)
 	router := buildRouter(h, hub)

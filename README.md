@@ -8,6 +8,8 @@ Define virtual boundaries (geofences), track vehicles in real time, and get
 - **Real-time** — WebSocket broadcast at `/ws/alerts`
 - **Infra** — Docker Compose (db + backend + frontend)
 
+- **Loom Link** — https://www.loom.com/share/659464beca284e08ba02fa4474de57a2
+
 ## Run it
 
 ```bash
